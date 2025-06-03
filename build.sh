@@ -24,11 +24,10 @@ sed -i 's|assets|tic-tac-toe/assets|g' index.html assets/*
 
 # commit and push
 rm -rf tic-tac-toe || true
-# git add .
-# DATETIME=$(date +"%Y-%m-%d %H:%M:%S")
-# git commit -m "release @ $DATETIME"
-# git push
+git add .
+DATETIME=$(date +"%Y-%m-%d %H:%M:%S")
+git commit -m "release @ $DATETIME"
+git push
 
-
-# echo "script completed successfully!"
+echo "script completed successfully!"
 
